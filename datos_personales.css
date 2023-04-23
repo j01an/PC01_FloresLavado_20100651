@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: flex-start; /* Alineación vertical al inicio de la columna */
+    margin-bottom: 16px; /* Margen inferior para separar las filas */
+}
+
+.persona {
+    display: flex;
+    flex-direction: row; /* Cambio a dirección de fila */
+    margin-right: 32px; /* Margen derecho para separar las columnas */
+    width: 50%; /* Ancho del contenedor de cada persona */
+}
+
+.persona img {
+    max-width: 150px;
+    border: 1px solid black;
+    margin-right: 8px; /* Margen derecho para separar la foto de los datos */
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
